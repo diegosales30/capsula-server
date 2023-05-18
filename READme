@@ -30,4 +30,9 @@ npm i prisma -D
 
   npm i zod
 
+  npm i dotenv -D
+  npm i axios
+
+  npm i @fastify/jwt
+
 ```
