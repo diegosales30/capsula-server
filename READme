@@ -1,0 +1,33 @@
+
+
+```
+npm init --y
+npm i typescript -D
+ -> npx tsc --init
+npm i @types/node -D
+npm - tsx -D
+npm install eslint -D
+npm i @rocketseat/eslint-config -D
+
+framework  app restfull;
+npm i fastify     produção parece com o express
+npm i @fastify/cors
+
+npm i prisma -D
+ -> npx prisma init --datasource-provider SQLite
+ (pedindo pro prisma usar o sqlite, e nao postgres que é o padrao do prisma)
+
+  depois de criar o schema user:
+    -> npx prisma migrate dev
+    -> npx prisma studio:  abre no navegador a tabela sql
+    parar o studio e instalar o prisma client
+  
+  npm i @prisma/client
+
+   toda vez que faço alteração no prisma:
+    -> npx prisma migrate dev
+    -> npx prisma migrate reset
+
+  npm i zod
+
+```
